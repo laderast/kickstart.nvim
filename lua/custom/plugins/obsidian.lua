@@ -21,7 +21,7 @@ return {
     workspaces = {
       {
         name = "personal",
-        path = "~/Documents/teb_zab",
+        path = "~/teb_zab",
       },
     },
 
