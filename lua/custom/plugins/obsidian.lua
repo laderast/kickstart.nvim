@@ -46,6 +46,6 @@ return {
     -- Trigger completion at 2 chars.
     min_chars = 2,
   }
-
+  }
     -- see below for full list of options 👇
 }
