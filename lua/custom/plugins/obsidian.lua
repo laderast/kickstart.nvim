@@ -17,12 +17,14 @@ return {
 
     -- see below for full list of optional dependencies 👇
   },
-  opts={workspaces = {
+  opts={
+    workspaces = {
       {
         name = "personal",
         path = "~/teb_zab",
       },
     },
+  },
 
     log_level = vim.log.levels.INFO,
 
@@ -45,7 +47,7 @@ return {
     nvim_cmp = true,
     -- Trigger completion at 2 chars.
     min_chars = 2,
-  }
+    }
   }
     -- see below for full list of options 👇
 }
