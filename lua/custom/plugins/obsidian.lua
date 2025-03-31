@@ -16,11 +16,8 @@ return {
     "nvim-lua/plenary.nvim",
 
     -- see below for full list of optional dependencies 👇
-  }}
-
-  
-  require{"obsidian").setup({
-    workspaces = {
+  }},
+  opts={workspaces = {
       {
         name = "personal",
         path = "~/teb_zab",
@@ -51,4 +48,4 @@ return {
   },
 
     -- see below for full list of options 👇
-  })f
+}
