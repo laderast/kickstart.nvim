@@ -350,6 +350,8 @@ require('lazy').setup({
     },
   },
 
+  { 'dasupradyumna/midnight.nvim', lazy = false, priority = 1000 },
+
   -- NOTE: Plugins can specify dependencies.
   --
   -- The dependencies are proper plugin specifications as well - anything
